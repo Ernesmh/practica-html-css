@@ -1,0 +1,289 @@
+*{
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar{
+  position:relative;
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 10px;
+  padding-left: 20px;
+  height: 30px;
+  font-size:14px;
+}
+
+nav a{
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  margin: 0 20px 0 0;
+  text-align: right;
+}
+
+.top-links li {
+  display: inline-block;
+  float: right;
+  margin: 0 10px;
+}
+
+.clearfix{
+  clear: both;
+}
+
+.right{
+  float: right;
+  padding-top: 5px;
+}
+
+header{
+  position:relative;
+  background-color: RGB(32, 101, 136);
+  height:440px;
+  background-image: URL("images/city-scape.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.searchbar{
+  background-color: ;
+  height:60px;
+  width:100%;
+
+  }
+
+.bar{
+  margin: auto;
+}
+
+.imglogo{
+    height: 80%;
+    width:120px;
+    padding-left: 20px;
+    padding-top:20px;
+    position:relative;
+  }
+
+.bear-logo{
+    padding-right:25px;
+    padding-top:10px;
+    height:100%;
+    width:50px;
+  }
+
+.build-container{
+  position:absolute;
+  font-size: 18px;
+  left: 400px;
+  width:500px;
+  margin: 0 auto;
+  color: white;
+  padding-top:50px;
+}
+
+.build-container h1{
+  font-size:45px;
+  font-weight: normal;
+
+}
+
+.searchbar p{
+  margin:0 auto;
+  color:white;
+}
+
+input[type=text] {
+  position: absolute;
+  top:20px;
+  left:150px;
+  margin-left: 5px;
+  background-color: rgb(31, 82, 111);
+  padding-left: 10px;
+  width: 1400px;
+  height: 40px;
+  border: 1px solid grey;
+}
+
+.search-button {
+  position:absolute;
+  left: 1567px;
+  top: 20px;
+  width: 40px;
+  height: 42px;
+  border: 1px solid grey;
+  background: RGB(31, 82, 111);
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.bat-text{
+  margin: auto;
+  color: white;
+  position:absolute;
+  left: 1640px;
+  top: 28px;
+}
+
+.bat-text a{
+  text-decoration: none;
+  color: white;
+}
+
+.button-signup{
+  background-color: RGB(240, 146, 51);
+  color: white;
+  font-size: 18px;
+  text-align:center;
+  height: 40px;
+  width:170px;
+  padding: 0px;
+  border: border-box;
+  border-radius: 20px;
+  cursor: pointer;
+  border-style: hidden;
+}
+
+
+
+#collaboration{
+  height:580px;
+  background-color: RGB(39,53,71);
+
+}
+
+.colltext{
+  font-size: 18px;
+  padding-top:90px;
+  width: 440px;
+  margin-right: 45px;
+}
+
+.collaboration-container{
+  width: 1200px;
+  margin: 0 auto;
+  color: white;
+  padding: 50px 0 50px 0;
+  line-height: 30px;
+  text-align:left;
+}
+
+.imgcoll{
+  margin-left:80px;
+  padding-top:65px;
+  height: 340px;
+  width: auto;
+}
+
+.collaboration-container a{
+  text-decoration:none;
+  text-style: bold;
+  color: white;
+}
+
+.collaboration-container .button-signup{
+  background-color: rgb(203, 56, 55);
+  border-color: rgb(203, 56, 55);
+}
+
+
+#what-is{
+  background-image: url("images/forklift.svg");
+  background-repeat: no-repeat;
+  background-size: cover
+  position: relative;
+  height: 500px;
+}
+
+.what-is-conf{
+  line-height: 20px;
+}
+
+.whatis-container{
+  position:absolute;
+  color: white;
+  left:400px;
+  text-align: left;
+  width:400px;
+  margin:0 auto;
+  padding-top:120px;
+}
+
+.whatis-container .button-signup{
+  background-color:rgb(49, 68, 88);
+}
+
+#buildingblocks{
+  height: 470px;
+  width: 1200px;
+  background-color: white;
+  margin: auto;
+}
+
+.text-building{
+  width:1200px;
+  margin: 0 auto;
+  padding-top: 20px;
+  text-align: center;
+  line-height: 45px;
+}
+
+h2{
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.options-wcym{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.heading-building{
+  color: RGB(83,88,98);
+  font-size:32px;
+  padding-top: 40px;
+  font-weight:normal;
+}
+
+.text-grey{
+  color: grey;
+}
+
+.box{
+  height:100px;
+  width: 30%;
+  float: left;
+  text-align: center;
+  padding-top: 25px;
+  color:grey;
+}
+
+.box-mid{
+  margin: 0 5% 0 5%;
+}
+
+.box p{
+  padding-top: 15px;
+  margin: 0 40px 0 40px;
+}
+
+.box b{
+  font-size:18px;
+  color: black;
+}
+
+.find a{
+  color: rgb(208, 74, 73);
+  text-decoration: none;
+}
+
+.whatis .button-signup{
+  background-color: RGB(49, 68, 88);
+  cursor: pointer;
+}
